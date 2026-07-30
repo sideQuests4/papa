@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Company History | The Official Website of Anish Doctor</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    color:#333;
+}
+
+nav{
+    background:#003366;
+    padding:18px;
+    position:sticky;
+    top:0;
+}
+
+nav ul{
+    display:flex;
+    justify-content:center;
+    list-style:none;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:600;
+}
+
+nav a:hover{
+    color:#FFD700;
+}
+
+header{
+
+    background:
+    linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+    url("images/banner.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    color:white;
+
+    text-align:center;
+
+    padding:100px 20px;
+
+}
+
+header h1{
+
+    font-size:56px;
+    margin-bottom:15px;
+
+}
+
+header p{
+
+    font-size:24px;
+    color:#FFD700;
+
+}
+
+.container{
+
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+    padding:70px 0;
+
+}
+
+.section-title{
+
+    text-align:center;
+    color:#003366;
+    font-size:40px;
+    margin-bottom:50px;
+
+}
+
+/* ---------- Timeline ---------- */
+
+.timeline{
+
+    position:relative;
+    margin-left:30px;
+    border-left:5px solid #003366;
+
+}
+
+.event{
+
+    position:relative;
+    margin-left:35px;
+    margin-bottom:50px;
+
+}
+
+.event::before{
+
+    content:"";
+    position:absolute;
+    left:-47px;
+    top:5px;
+
+    width:20px;
+    height:20px;
+
+    background:#FFD700;
+    border:4px solid #003366;
+    border-radius:50%;
+
+}
+
+.year{
+
+    font-size:28px;
+    color:#003366;
+    font-weight:bold;
+
+}
+
+.card{
+
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    margin-top:15px;
+    box-shadow:0 10px 20px rgba(0,0,0,.08);
+
+}
+
+.card h3{
+
+    margin-bottom:10px;
+    color:#003366;
+
+}
+
+.card p{
+
+    line-height:1.7;
+
+}
+
+/* ---------- Story Cards ---------- */
+
+.story{
+
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    margin-bottom:35px;
+    box-shadow:0 10px 20px rgba(0,0,0,.08);
+
+}
+
+.story h3{
+
+    color:#003366;
+    margin-bottom:15px;
+
+}
+
+.story p{
+
+    line-height:1.8;
+
+}
+
+/* ---------- Incident Cards ---------- */
+
+.incident{
+
+    background:white;
+
+    border-left:8px solid #FFD700;
+
+    padding:30px;
+
+    margin-bottom:30px;
+
+    border-radius:12px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+}
+
+.incident h3{
+
+    color:#003366;
+    margin-bottom:15px;
+
+}
+
+.incident table{
+
+    width:100%;
+    border-collapse:collapse;
+
+}
+
+.incident td{
+
+    padding:10px;
+
+    border-bottom:1px solid #ddd;
+
+}
+
+footer{
+
+    background:#003366;
+
+    color:white;
+
+    text-align:center;
+
+    padding:30px;
+
+    margin-top:70px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+
+<ul>
+
+<!-- <li><a href="index.html">Home</a></li>
+<li><a href="about.html">About Us</a></li> -->
+<!-- <li><a href="interests.html">Official Interests Department</a></li> -->
+<!-- <li><a href="history.html">Company History</a></li>
+<li><a href="achievements.html">Hall of Achievements</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="reviews.html">Reviews</a></li>
+<li><a href="faq.html">FAQ</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a href="#">Chairman's Note</a></li> -->
+
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About Us</a></li>
+<!-- <li><a href="interests.html">Official Interests Department</a></li> -->
+<li><a href="history.html">Company History</a></li>
+<li><a href="achievements.html">Hall of Achievements</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<!-- <li><a href="reviews.html">Reviews</a></li> -->
+<li><a href="faq.html">FAQ</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a href="chairman.html">Chairman's Note</a></li>
+
+</ul>
+
+</nav>
+
+<header>
+
+<h1>Company History</h1>
+
+<p>58 Years of Continuous Excellence</p>
+
+</header>
+
+<div class="container">
+
+<h2 class="section-title">Corporate Timeline</h2>
+
+<div class="timeline">
+
+<div class="event">
+
+<div class="year">1968</div>
+
+<div class="card">
+
+<h3>Company Founded</h3>
+
+<p>
+The Anish Doctor Corporation officially began operations.
+The founder entered the market with unlimited potential,
+zero experience, and a very very flat back-of-the-head. 
+</p>
+
+</div>
+
+</div>
+
+<!-- <div class="event">
+
+<div class="year">19XX</div>
+
+<div class="card">
+
+<h3>📚 Research & Development Expansion</h3>
+
+<p>
+
+Successfully transitioned from an English-medium school
+to a Gujarati-medium institution.
+
+Despite encountering vocabulary that appeared specifically
+designed to confuse small children, the founder adapted
+remarkably well.
+
+</p>
+
+</div>
+
+</div> -->
+
+<!-- <div class="event">
+
+<div class="year">19XX</div>
+
+<div class="card">
+
+<h3>🎓 Education Milestone</h3>
+
+<p>
+
+Completed academic training and officially qualified for
+future leadership opportunities.
+
+</p>
+
+</div>
+
+</div> -->
+
+<div class="event">
+
+<div class="year">19XX</div>
+
+<div class="card">
+
+<h3>Architecture Division Established</h3>
+
+<p>
+
+The company entered the architecture industry,
+where it continues to produce thoughtful designs,
+solve problems,
+and yell at plumbers.
+</p>
+<br>
+<p>
+A lifelong partnership with Shivprasad was established. 
+
+</p>
+
+
+
+</div>
+
+</div>
+
+<div class="event">
+
+    <div class="year">1995</div>
+
+    <div class="card">
+
+        <div style="display:flex; align-items:center; gap:30px; flex-wrap:wrap;">
+
+            <div style="flex:2; min-width:300px;">
+
+                <h3>Strategic Partnership Formed</h3>
+
+                <p>
+
+                    A landmark merger resulted in the formation
+                    of the Doctor Household.
+
+                    Shareholder confidence reached an all-time high.
+
+                </p>
+
+            </div>
+
+            <div style="flex:1; text-align:center; min-width:220px;">
+
+                <img src="images/heading into the sunset.jpeg"
+                     alt="Wedding"
+                     style="width:100%;
+                            max-width:250px;
+                            border-radius:12px;
+                            border:5px solid #c9a227;
+                            box-shadow:0 8px 18px rgba(0,0,0,.25);">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="event">
+
+    <div class="year">1998</div>
+
+    <div class="card">
+
+        <div style="display:flex; align-items:center; gap:30px; flex-wrap:wrap;">
+
+            <div style="flex:2; min-width:300px;">
+
+                <h3>Family Operations Division Launched</h3>
+
+                <p>
+
+                    Promoted to Chief Executive Dad.
+
+                    Responsibilities expanded dramatically, including midnight cricket, hair combing, scooter rides,
+                    life advice, airport pickups, and unlimited back scratches.
+
+                </p>
+
+                <br>
+
+                <p>
+
+                    Financial reports showed a temporary decline in cash reserves due to major investments in education, clothing, books, birthday celebrations, and countless other expenses.
+
+                    Management unanimously declared the investment to be the company's greatest success.
+
+                    Long-term returns expected.
+
+                    Any day now.
+
+                    We hope.
+
+                </p>
+
+            </div>
+
+            <div style="flex:1; text-align:center; min-width:220px;">
+
+                <img src="images/3 of us.jpeg"
+                     alt="Chief Executive Dad"
+                     style="width:100%;
+                            max-width:250px;
+                            border-radius:12px;
+                            border:5px solid #c9a227;
+                            box-shadow:0 8px 18px rgba(0,0,0,.25);">
+
+                <p style="margin-top:10px;font-weight:bold;color:#003366;">
+                    Family unit.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="event">
+
+<div class="year">2026</div>
+
+<div class="card">
+
+<h3>Official Website Released</h3>
+
+<p>
+
+The founder finally received the worldwide recognition
+he had clearly deserved.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<br><br><br>
+
+<h2 class="section-title">Research & Development</h2>
+
+<div class="story">
+
+<h3>Language Expansion Initiative</h3>
+
+<p>
+
+One of the organization's earliest challenges involved
+transitioning from an English-medium school to a
+Gujarati-medium school.
+
+The founder was suddenly introduced to vocabulary like રસાયણશાસ્ત્ર.
+<br>
+<br>
+
+Rather than retreat, he quietly mastered the language and
+continued his education successfully.
+
+This achievement remains one of the company's finest examples
+of adaptability and perseverance.
+
+</p>
+
+</div>
+
+<div class="story">
+
+<h3>Continuous Learning</h3>
+
+<p>
+
+Throughout the early years, the founder consistently
+demonstrated curiosity, resilience, and a remarkable ability
+to overcome challenges.
+
+These qualities would later become the foundation of both
+his architectural career and his leadership within
+Family Operations. He is a rock.
+
+</p>
+
+</div>
+
+<br><br>
+
+<h2 class="section-title">Field Testing & Safety Incidents</h2>
+
+<div class="incident">
+
+<h3>Incident Report #001</h3>
+
+<table>
+
+<tr>
+<td><strong>Project</strong></td>
+<td>Glass Quality Assurance Test</td>
+</tr>
+
+<tr>
+<td><strong>Objective</strong></td>
+<td>Unknown.</td>
+</tr>
+
+<tr>
+<td><strong>Outcome</strong></td>
+<td>Glass successfully demonstrated that it is, in fact, sharp.</td>
+</tr>
+
+<tr>
+<td><strong>Employee Status</strong></td>
+<td>Recovered successfully.</td>
+</tr>
+
+<tr>
+<td><strong>Lessons Learned</strong></td>
+<td>Jumping onto glass is no longer recommended company policy.</td>
+</tr>
+
+</table>
+
+</div>
+
+<div class="incident">
+
+<h3>Incident Report #002</h3>
+
+<table>
+
+<tr>
+<td><strong>Project</strong></td>
+<td>Advanced Gravity Experiment</td>
+</tr>
+
+<tr>
+<td><strong>Objective</strong></td>
+<td>Accidental.</td>
+</tr>
+
+<tr>
+<td><strong>Summary</strong></td>
+<td>
+
+While conducting rooftop activities,
+the founder unexpectedly departed from a water tank.
+
+Fortunately,
+the landing occurred on a terrace rather than
+three stories below.
+
+</td>
+</tr>
+
+<tr>
+<td><strong>Outcome</strong></td>
+<td>Project completed with surprisingly minimal damage.</td>
+</tr>
+
+<tr>
+<td><strong>Recommendation</strong></td>
+<td>Future gravity experiments require adult supervision.</td>
+</tr>
+
+</table>
+
+</div>
+
+<div class="incident">
+
+<h3>Incident Report #003</h3>
+
+<table>
+
+<tr>
+<td><strong>Status</strong></td>
+<td>Reserved for future legendary stories.</td>
+</tr>
+
+<tr>
+<td><strong>Expectation</strong></td>
+<td>High.</td>
+</tr>
+
+</table>
+
+</div>
+
+</div>
+
+<footer>
+
+Anish Doctor Enterprises™<br><br>
+
+Building a legacy since 1968.
+
+</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>The Official Website of Anish Doctor</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+    color:#222;
+}
+
+/* ---------------- NAVBAR ---------------- */
+
+nav{
+    background:#003366;
+    padding:18px;
+    position:sticky;
+    top:0;
+    z-index:100;
+}
+
+nav ul{
+    display:flex;
+    justify-content:center;
+    gap:35px;
+    list-style:none;
+    flex-wrap:wrap;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#FFD700;
+}
+
+/* ---------------- HERO ---------------- */
+
+.hero{
+
+    height:85vh;
+
+    background:
+    linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+    url("banner.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+}
+
+.hero-content{
+    max-width:900px;
+}
+
+.hero h1{
+    font-size:58px;
+    margin-bottom:20px;
+}
+
+.hero h2{
+    font-size:28px;
+    color:#FFD700;
+    margin-bottom:25px;
+}
+
+.hero p{
+    font-size:24px;
+    font-style:italic;
+    margin-bottom:35px;
+}
+
+.btn{
+    display:inline-block;
+    padding:15px 35px;
+    background:#FFD700;
+    color:black;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+/* ---------------- SECTION ---------------- */
+
+section{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    padding:70px 0;
+}
+
+.section-title{
+    text-align:center;
+    font-size:40px;
+    margin-bottom:45px;
+    color:#003366;
+}
+
+/* ---------------- INTRO ---------------- */
+
+.intro{
+    text-align:center;
+    font-size:20px;
+    line-height:1.8;
+}
+
+/* ---------------- ROLES ---------------- */
+
+.roles{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.role-card{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.role-card:hover{
+    transform:translateY(-8px);
+}
+
+.role-card h3{
+    color:#003366;
+}
+
+/* ---------------- STATS ---------------- */
+
+.stats{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:25px;
+}
+
+.stat{
+
+    background:white;
+
+    border-radius:15px;
+
+    padding:30px;
+
+    text-align:center;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.number{
+
+    font-size:42px;
+
+    font-weight:bold;
+
+    color:#003366;
+
+    margin-bottom:10px;
+
+}
+
+.label{
+
+    font-size:18px;
+
+}
+
+/* ---------------- FOOTER ---------------- */
+
+footer{
+
+    background:#003366;
+
+    color:white;
+
+    text-align:center;
+
+    padding:35px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="about.html">About Us</a></li>
+
+<!-- <li><a href="interests.html">Official Interests Department</a></li> -->
+
+<li><a href="history.html">Company History</a></li>
+
+<li><a href="achievements.html">Hall of Achievements</a></li>
+
+<li><a href="gallery.html">Gallery</a></li>
+
+<!-- <li><a href="reviews.html">Reviews</a></li> -->
+
+<li><a href="faq.html">FAQ</a></li>
+
+<li><a href="contact.html">Contact Us</a></li>
+
+<li><a href="chairman.html">Chairman's Note</a></li>
+
+</ul>
+
+</nav>
+
+<header class="hero">
+
+<div class="hero-content">
+
+<h1>The Official Website of<br>Anish Doctor</h1>
+
+<h2>Founded in 1968</h2>
+
+<p>
+Powered by cricket, bad jokes and an amazing daughter.
+</p>
+
+<a class="btn" href="#">Official Dad Portal</a>
+
+</div>
+
+</header>
+
+<section>
+
+<h2 class="section-title">Welcome</h2>
+
+<div class="intro">
+
+<p>
+
+For over five decades, Anish Doctor has been delivering world-class
+fatherhood, architectural excellence, unsolicited life advice,
+and elite-level newspaper reading.
+
+His unwavering commitment to family, cricket, and mukhwas has made him
+one of the most respected professionals in the Dad industry.
+
+</p>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Executive Roles</h2>
+
+<div class="roles">
+
+<div class="role-card">
+<h3>Father</h3>
+</div>
+
+<div class="role-card">
+<h3>Husband</h3>
+</div>
+
+<div class="role-card">
+<h3>Son</h3>
+</div>
+
+<div class="role-card">
+<h3>Brother</h3>
+</div>
+
+<div class="role-card">
+<h3>Architect</h3>
+</div>
+
+<div class="role-card">
+<h3>Director of Cricket Affairs</h3>
+</div>
+
+<div class="role-card">
+<h3>Executive Vice President of Bad Jokes</h3>
+</div>
+
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Official Performance Metrics</h2>
+
+<div class="stats">
+
+<div class="stat">
+<div class="number">483,271</div>
+<div class="label">Bad Jokes Told</div>
+</div>
+
+<div class="stat">
+<div class="number">27,684</div>
+<div class="label">Supportive Rants Sent to Daughter</div>
+</div>
+
+<div class="stat">
+<div class="number">91,452</div>
+<div class="label">Hours Reading the Newspaper</div>
+</div>
+
+<div class="stat">
+<div class="number">1,846 kg</div>
+<div class="label">Mukhwas Consumed</div>
+</div>
+
+
+<div class="stat">
+<div class="number">9,812</div>
+<div class="label">Cricket Matches Analyzed</div>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<h2>Anish Doctor Enterprises™</h2>
+
+<br>
+
+<p>
+
+An ISO-certified provider of exceptional fatherhood.*
+
+</p>
+
+<br>
+
+<p>
+
+"Even Sachin Tendulkar some times got out with 0 runs."
+
+</p>
+
+</footer>
+
+</body>
+</html>
